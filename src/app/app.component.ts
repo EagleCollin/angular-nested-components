@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-nested-components';
+  myPosts: string[]=["post 1", "post 2", "post 3"]
 }
